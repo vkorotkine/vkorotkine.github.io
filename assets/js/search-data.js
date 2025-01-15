@@ -34,7 +34,10 @@ ninja.data = [{
           window.location.href = "/blog/2021/identities/";
         
       },
-    },{id: "news-our-paper-on-improving-the-use-of-gaussian-mixtures-in-common-robotics-optimizers-was-published-in-robotics-amp-amp-automation-letters",
+    },{id: "news-was-very-happy-to-present-at-the-2024-edition-of-the-montreal-robotics-summer-school-at-the-mila-quebec-ai-institute-on-the-topic-of-monte-carlo-filtering-slides",
+          title: 'Was very happy to present at the 2024 edition of the Montreal Robotics...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-improving-the-use-of-gaussian-mixtures-in-common-robotics-optimizers-was-published-in-robotics-amp-amp-automation-letters",
           title: 'Our paper on improving the use of gaussian mixtures in common robotics optimizers...',
           description: "",
           section: "News",},{id: "projects-project-1",

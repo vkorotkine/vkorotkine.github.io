@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am a Ph.D. Candidate studying robot navigation in the <a href='https://www.decar.ca/'>Dynamics, Estimation, and Control in Aerospace and Robotics (DECAR)</a> research group at McGill University under the supervision of <a href="https://www.decar.ca/our-team">James Richard Forbes</a>. 
+subtitle: I am a Ph.D. Candidate studying robot navigation in the <a href='https://www.decar.ca/'>Dynamics, Estimation, and Control in Aerospace and Robotics (DECAR)</a> research group at McGill University under the supervision of <a href="https://www.decar.ca/our-team">Prof. James Richard Forbes</a>. 
 
 
 

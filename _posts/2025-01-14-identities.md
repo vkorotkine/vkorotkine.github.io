@@ -105,18 +105,4 @@ Fact 1: For the $SO(2)$ group of 2D rotations, the following holds,
     \mathbf{P} \mathbf{u}v,
 \end{align}
 Where $$\mathbf{P}=\begin{bmatrix} 0 & -1 \\\ 0 & 1\end{bmatrix}$$. This contrasts with the $SO(3)$ case, where $$\mathbf{v}^\wedge \mathbf{u} =  -\mathbf{u}^\wedge \mathbf{v}$$.
-
-<!-- This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
-You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
-If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
-
-In fact, you can also use a single dollar sign `$` to create inline formulas, such as `$ E = mc^2 $`, which will render as $ E = mc^2 $. This approach provides the same effect during TeX-based compilation, but visually it appears slightly less bold compared to double-dollar signs `$$`, making it blend more naturally with surrounding text.
-
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph.
-Here is an example:
-
-$$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-$$
-
-Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html) that brought a significant improvement to the loading and rendering speed, which is now [on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php). -->
+This ties into the $\ \odot\ $ operator as described in <d-cite key="barfoot2024state"></d-cite> in the section covering homogeneous points.

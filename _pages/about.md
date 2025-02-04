@@ -25,6 +25,9 @@ seeks to answer the following questions: 1) Where am I? and 2) What does the env
 
 I am particularly interested in situations where there is inherent ambiguity in the environment, such as the case of unknown data associations, where the robot does not know which landmark a measurement came from. 
 
+Outside of work, I am interested in anything outdoors. 
+From 2020-2022 I was on the exec council for <a href="https://mcgill-triathlon.com/"> McGill Triathlon Club</a> organizing their social events. 
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.

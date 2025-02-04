@@ -23,7 +23,25 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-useful-identities",
+        },{id: "nav-notes",
+          title: "notes",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/notes/";
+          },
+        },{id: "post-random-python-tidbits",
+      
+        title: "random python tidbits",
+      
+      description: "useful to have on hand",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/python-float-formatters/";
+        
+      },
+    },{id: "post-useful-identities",
       
         title: "useful identities",
       

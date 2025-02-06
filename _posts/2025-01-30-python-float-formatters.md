@@ -34,12 +34,19 @@ Read/write with pickle,
 ```python
 test_dict = {"test": 1}
 with open('euler.pickle', 'wb') as f:
-    pickle.dump(test_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    pickle.dump(test_dict, f, protocol=pickle.HIGHEST_PROTOCOL)
 
 with open('euler.pickle', 'rb') as f:
     b = pickle.load(f)
 ```
-
+Number formats: 
+```python
+".1e" #: scientific notation with 1 decimal point (standard form)
+".2f" #: 2 decimal places
+".3g" #: 3 significant figures
+".4%" #: percentage with 4 decimal places
+```
+with more details <a href="https://docs.python.org/3/library/string.html#formatspec">here</a>. 
 ## Pandas Dataframe Manipulation
 Nicely formatting a multilevel pandas dataframe to input into a paper. 
 Given a dataframe with columns Dims and Method, as well as some metrics of interest, 

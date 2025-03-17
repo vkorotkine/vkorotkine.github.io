@@ -30,9 +30,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/notes/";
           },
-        },{id: "post-random-python-tidbits",
+        },{id: "post-media-recommendations",
       
-        title: "random python tidbits",
+        title: "media recommendations",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/useful-resources/";
+        
+      },
+    },{id: "post-random-code-tidbits",
+      
+        title: "random code tidbits",
       
       description: "useful to have on hand",
       section: "Posts",

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: random python tidbits
+title: random code tidbits
 date: 2025-01-30 11:00:00
 description: useful to have on hand
 tags: code
@@ -18,7 +18,7 @@ I expand and refine on these as time allows.
 code code code
 ```
 ```` -->
-## Random Function Tidbits
+## Python Function Tidbits
 Formatting a Python float with a given number of significant figures,
 ```python
 number = 1.2345
@@ -47,6 +47,14 @@ Number formats:
 ".4%" #: percentage with 4 decimal places
 ```
 with more details <a href="https://docs.python.org/3/library/string.html#formatspec">here</a>. 
+## Plotting
+Plotting timestamps as vertical lines, 
+```python 
+import pandas as pd
+plt.figure()
+ax: plt.Axes = plt.gca()
+ax.vlines([stamps_rel_pos], label="Measurement stamps", ymin=0, ymax=1, colors="red")
+```
 ## Pandas Dataframe Manipulation
 Nicely formatting a multilevel pandas dataframe to input into a paper. 
 Given a dataframe with columns Dims and Method, as well as some metrics of interest, 

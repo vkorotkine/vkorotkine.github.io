@@ -52,6 +52,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/python-float-formatters/";
         
       },
+    },{id: "post-noise-in-batch-models-that-enters-nonlinearly",
+      
+        title: "noise in batch models that enters nonlinearly",
+      
+      description: "linearization everywhere",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2021/batch-noise-linearization/";
+        
+      },
     },{id: "post-useful-identities",
       
         title: "useful identities",

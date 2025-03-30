@@ -5,7 +5,7 @@ description: quick mathematical facts I rederive every so often
 tags: 
 giscus_comments: true
 date: 2021-05-22
-featured: true
+featured: false
 mermaid:
   enabled: true
   zoomable: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: media recommendations
+title: useful resources
 date: 2025-02-25 11:00:00
 description: 
 tags: 
@@ -13,4 +13,6 @@ The following is a small list of resources that I recommend to people occasional
 - <a href="https://substack.com/@henryfarrell"> Henry Farrell's substack</a>. Mix of policy and technology. 
 - <a href="https://www.argmin.net/"> argmin blog</a> by Ben Recht. Optimization and machine learning. 
 - <a href="https://hankyang.seas.harvard.edu/Semidefinite/"> Semidefinite optimization and relaxation book</a> by Heng Yang. Covers certifiably optimal algorithms in robotics. 
+- <a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf"> An introduction to inertial navigation</a> by Oliver J. Woodman. 
 - <a href="https://docs.google.com/document/d/e/2PACX-1vQTvxZkYPbOq3VYKCfAy8hKs4wjwLOF6z_7LT5vDkDSgVmcOto15-yzmOVOi8uAaGVkWoPCg2FNHD-v/pub"> How to Read a Research Paper </a>  by Dmitry Berenson at University of Michigan. Written for the robotics field specifically. 
+- <a href="https://rpg.ifi.uzh.ch/docs/IROS18_Zhang.pdf"> A Tutorial on Quantitative Trajectory Evaluation for Visual(-Inertial) Odometry </a>  by Zichao Zhang and Davide Scaramuzza. Useful reference for error metrics in robot navigation. 

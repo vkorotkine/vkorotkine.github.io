@@ -1,11 +1,11 @@
 ---
 layout: distill
-title: noise in batch models that enters nonlinearly
+title: nonlinear noise in nonlinear-least-squares optimization
 description: linearization everywhere
 tags: 
 giscus_comments: true
-date: 2021-05-22
-featured: true
+date: 2025-03-19
+featured: false
 mermaid:
   enabled: true
   zoomable: true
@@ -105,7 +105,7 @@ which is equivalent to minimizing the negative log-likelihood as
 
 The form for $p(\mathbf{y}|\mathbf{x})$ is Gaussian, meaning that
 \begin{equation}
-p(\mathbf{y}|\mathbf{x}) = \alpha \exp(-(\mathbf{y}-\mathbf{g}(\mathbf{x}))\mathbf{R}^{-1}(\mathbf{y}-\mathbf{g}(\mathbf{x}))),
+p(\mathbf{y}|\mathbf{x}) = \alpha \exp(-(\mathbf{y}-\mathbf{g}(\mathbf{x}))^{\text{trans}}\mathbf{R}^{-1}(\mathbf{y}-\mathbf{g}(\mathbf{x}))),
 \end{equation}
 
 where $\alpha$ is a normalization constant. By defining $\mathbf{e}(\mathbf{x})=\mathbf{y}-\mathbf{g}(\mathbf{x})$, 

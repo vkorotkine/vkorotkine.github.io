@@ -220,7 +220,7 @@ Using the first four terms, a 3rd order Taylor series approximation, yields
 <p>\begin{align}
 \mathbf{Q}_d&\approx 
 \mathbf{Q}_c\Delta t + (\mathbf{A}_c\mathbf{Q}_c + \mathbf{Q}_c \mathbf{A}_c^\text{T}) \frac{\Delta T^2}{2}
-+(\mathbf{A}_c^2\mathbf{Q}_c +2\mathbf{A}_c\mathbf{Q}_c\mathbf{A}^\text{T}+\mathbf{Q}(\mathbf{A}_c^\text{T})^2)\frac{\Delta T^3}{6}+\\
++(\mathbf{A}_c^2\mathbf{Q}_c +2\mathbf{A}_c\mathbf{Q}_c\mathbf{A}^\text{T}+\mathbf{Q}(\mathbf{A}_c^\text{T})^2)\frac{\Delta T^3}{6}+ \nonumber \\
 &\quad(\mathbf{A}_c^3\mathbf{Q}_c+3\mathbf{A}_c^2\mathbf{Q}_c\mathbf{A}_c^\text{T}
 +3\mathbf{A}_c\mathbf{Q}_c(\mathbf{A}_c^\text{T})^2+\mathbf{Q}_c(\mathbf{A}_c^\text{T})^3)\frac{T^4}{24}.
 \end{align}
@@ -340,9 +340,9 @@ zero'th order approximation for $\mathbf{Q}_d$ and comparing to the $\mathbf{L}_
 expression we obtained here gives
 <p>
 \begin{align}
-\mathbf{L}_d\mathbf{R}_d\mathbf{L}_d^T &= \Delta t \mathbf{L}_c \mathbf{Q}_c \mathbf{L}_c^{\text{T}} \\\\ 
+\mathbf{L}_d\mathbf{R}_d\mathbf{L}_d^T &= \Delta t \mathbf{L}_c \mathbf{Q}_c \mathbf{L}_c^{\text{T}} \\
 \Delta t^2
-\mathbf{L}_c\mathbf{R}_d\mathbf{L}_c^T &= \Delta t \mathbf{L}_c \mathbf{Q}_c \mathbf{L}_c^{\text{T}} \\\\
+\mathbf{L}_c\mathbf{R}_d\mathbf{L}_c^T &= \Delta t \mathbf{L}_c \mathbf{Q}_c \mathbf{L}_c^{\text{T}} \\
 \mathbf{R}_d &= \mathbf{Q}_c/\Delta t. 
 \end{align}
 </p>

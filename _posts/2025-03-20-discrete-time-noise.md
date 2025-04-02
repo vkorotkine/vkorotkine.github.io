@@ -126,7 +126,7 @@ In the context of sensor noise, a commonly used assumption is that noise is a _w
 where the _mean_ and _variance_ of the process are independent of time. 
 
 For a _wide sense stationary_ process, the autocovariance $\text{cov}(\mathbf{v}(t_1), \mathbf{v}(t_2))$
-_only_ depends on the time difference $\tau t=t_2-t_1$, 
+_only_ depends on the time difference $\tau =t_2-t_1$, 
 \begin{equation}
 \text{cov}(\mathbf{v}(t_1), \mathbf{v}(t_2))=\mathbf{R}(t_2-t_1) = \mathbf{\tau}.
 \end{equation}

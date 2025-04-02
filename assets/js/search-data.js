@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/notes/";
           },
-        },{id: "post-nonlinear-noise-in-nonlinear-least-squares-optimization",
+        },{id: "post-discretization-of-continuous-time-noise-and-process-models",
+      
+        title: "discretization of continuous-time noise and process models",
+      
+      description: "some bees in my bonnet on continuous-time to discrete-time white noise conversion",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/discrete-time-noise/";
+        
+      },
+    },{id: "post-nonlinear-noise-in-nonlinear-least-squares-optimization",
       
         title: "nonlinear noise in nonlinear-least-squares optimization",
       

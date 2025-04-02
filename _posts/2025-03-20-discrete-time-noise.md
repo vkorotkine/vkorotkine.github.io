@@ -110,10 +110,7 @@ white noise is not physically possible <d-cite key=farrell2008navigation></d-cit
 
 # Random Processes
 
-The world operates in continuous time, yet our sensors provide discrete data. 
-Furthermore, our sensors are noisy, which means we need to be able to reason about uncertainty and randomness
-in order to intelligently design algorithms for state estimation. 
-
+Noise is modeled using random processes in continuous time. 
 A random process $\mathbf{v}(t)$ defines a probability density at every time $t$.
 
 The autocovariance of a random process $\mathbf{v}(t)$ is given by 

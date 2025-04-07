@@ -389,7 +389,7 @@ and we want to manipulate this. This is where their argument goes completely off
 We take the following limit, 
 <p>
 \begin{equation}
-\lim_{k\rightarrow \infty}P_{k}=\frac{R}{k}=\frac{R_dT}{k}.
+\lim_{P_0 \rightarrow \infty}P_{k}=\frac{R}{k}=\frac{R_dT}{k}.
 \end{equation}
 </p>
 

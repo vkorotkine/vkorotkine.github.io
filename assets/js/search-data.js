@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/notes/";
           },
-        },{id: "post-discretization-of-continuous-time-noise-and-process-models",
+        },{id: "post-outlier-rejection-in-nonlinear-least-squares",
+      
+        title: "outlier rejection in nonlinear least squares",
+      
+      description: "an aesthetic derivation",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/robust_loss_triggs/";
+        
+      },
+    },{id: "post-discretization-of-continuous-time-noise-and-process-models",
       
         title: "discretization of continuous-time noise and process models",
       

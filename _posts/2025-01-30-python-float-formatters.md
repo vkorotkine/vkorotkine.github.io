@@ -8,10 +8,7 @@ categories:
 featured: false
 ---
 
-I often forget the details of some basic Python syntax.
-The goal of this post is to collect them 
-somewhere. It is a pure convenience post as these are easily googleable. 
-I expand and refine on these as time allows. 
+Random bits of code I reuse every so often. 
 
 <!-- ````markdown
 ```c++
@@ -150,4 +147,27 @@ format_multiindexed_df(
     max_columns=None,
 )
 
+```
+
+### Cleaning up a LaTeX paper repository before submitting to arXiv
+Removes unnecessary auxiliary files before uploading LaTeX code to arXiv. 
+Be careful not to run this in the original repo, but rather a copy. 
+
+```bash 
+# DO NOT RUN THIS IN THE ORIGINAL. 
+# RUN AFTER MOVING EVERYTHING TO THE NEW SUBMISSION DIRECTORY
+#!/bin/bash/
+rm main.log
+rm main.pdf 
+rm main.run.xml
+rm main.synctex.gz 
+rm main-blx.bib
+rm main.aux
+rm main.blg
+rm -rf .git
+rm -rf .vscode
+rm .gitignore
+rm main.fdb_latexmk
+rm main.fls
+rm clean_up_for_arxiv_v2.sh # Name of current script
 ```

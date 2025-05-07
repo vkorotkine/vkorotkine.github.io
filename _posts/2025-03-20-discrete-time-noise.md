@@ -5,7 +5,7 @@ description: some bees in my bonnet on continuous-time to discrete-time white no
 tags: 
 giscus_comments: true
 date: 2025-03-19
-featured: false
+featured: true
 mermaid:
   enabled: true
   zoomable: true

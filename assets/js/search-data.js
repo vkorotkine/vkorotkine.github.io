@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/notes/";
           },
-        },{id: "post-outlier-rejection-in-nonlinear-least-squares",
+        },{id: "post-reflections-on-icra-2025",
+      
+        title: "reflections on icra 2025",
+      
+      description: "coffee break pastries were excellent",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/icra/";
+        
+      },
+    },{id: "post-outlier-rejection-in-nonlinear-least-squares",
       
         title: "outlier rejection in nonlinear least squares",
       

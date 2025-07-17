@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/notes/";
           },
-        },{id: "post-reflections-on-icra-2025",
+        },{id: "post-filtering-updates-on-lie-groups",
+      
+        title: "filtering updates on lie groups",
+      
+      description: "moving gaussians around curves",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/filtering_lie_groups/";
+        
+      },
+    },{id: "post-reflections-on-icra-2025",
       
         title: "reflections on icra 2025",
       

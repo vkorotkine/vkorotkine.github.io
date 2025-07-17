@@ -26,7 +26,8 @@ seeks to answer the following questions: 1) Where am I? and 2) What does the env
 I am particularly interested in situations where there is inherent ambiguity in the environment, such as the case of unknown data associations, where the robot does not know which landmark a measurement came from. 
 
 Outside of work, I am interested in anything outdoors. 
-From 2020-2022 I was on the exec council for <a href="https://mcgill-triathlon.com/"> McGill Triathlon Club</a> organizing their social events. 
+From 2020-2022 I was on the exec council for <a href="https://mcgill-triathlon.com/"> McGill Triathlon Club</a> organizing their social events. From 2025 onwards, I am doing more of the same for the
+<a href="https://games-mcgill.github.io/"> Graduate Association of Mechanical Engineering Students at McGill University</a>.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

@@ -171,3 +171,8 @@ rm main.fdb_latexmk
 rm main.fls
 rm clean_up_for_arxiv_v2.sh # Name of current script
 ```
+
+## Plotting 
+
+Arranging plots in interesting configurations using GridSpec:
+<a href="https://gist.github.com/vkorotkine/b099da964335e23e22182bdeff68cdf8"> this github gist </a> 

@@ -34,34 +34,6 @@ authors:
 
 bibliography: 2025-05-02-robust.bib
 
-# Optionally, you can add a table of contents to your post.
-# NOTES:
-#   - make sure that TOC names match the actual section names
-#     for hyperlinks within the post to work correctly.
-#   - we may want to automate TOC generation in the future using
-#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
-# toc:
-# #   - name: Lie Groups
-#     # if a section has subsections, you can add them as follows:
-#     # subsections:
-#     #   - name: Example Child Subsection 1
-#     #   - name: Example Child Subsection 2
-#   - name: Random Processes
-#   - name: From Continuous-Time Covariances to Discrete Time
-#     subsections:
-#       - name: Linearize Then Discretize
-#       - name: Continuous to Discrete Time Noise "In A Vacuum"
-  # - name: Code Blocks
-  # - name: Interactive Plots
-  # - name: Mermaid
-  # - name: Diff2Html
-  # - name: Leaflet
-  # - name: Chartjs, Echarts and Vega-Lite
-  # - name: TikZ
-  # - name: Typograms
-  # - name: Layouts
-  # - name: Other Typography?
-
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
 _styles: >

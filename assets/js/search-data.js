@@ -63,6 +63,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/robust_loss_triggs/";
         
       },
+    },{id: "post-getting-openvins-up-and-running-with-ros2",
+      
+        title: "getting openvins up and running with ros2",
+      
+      description: "notes on getting stuff running",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/openvins-ros2/";
+        
+      },
     },{id: "post-discretization-of-continuous-time-noise-and-process-models",
       
         title: "discretization of continuous-time noise and process models",
@@ -123,6 +134,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-on-improving-the-use-of-gaussian-mixtures-in-common-robotics-optimizers-was-published-in-robotics-amp-amp-automation-letters",
           title: 'Our paper on improving the use of gaussian mixtures in common robotics optimizers...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-globally-optimal-data-association-free-landmark-based-localization-was-accepted-to-robotics-amp-amp-automation-letters",
+          title: 'Our paper on globally optimal data-association-free landmark-based localization was accepted to Robotics &amp;amp;amp;...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

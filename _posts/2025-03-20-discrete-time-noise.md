@@ -4,7 +4,7 @@ title: discretization of continuous-time noise and process models
 description: some bees in my bonnet on continuous-time to discrete-time white noise conversion
 tags: 
 giscus_comments: true
-date: 2025-03-19
+date: 2025-03-20
 featured: true
 mermaid:
   enabled: true

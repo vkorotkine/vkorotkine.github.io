@@ -4,7 +4,7 @@ title: outlier rejection in nonlinear least squares
 description: an aesthetic derivation
 tags: 
 giscus_comments: true
-date: 2025-03-19
+date: 2025-05-12
 featured: true
 mermaid:
   enabled: true

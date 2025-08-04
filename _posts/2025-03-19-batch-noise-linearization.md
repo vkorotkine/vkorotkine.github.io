@@ -5,7 +5,7 @@ description: linearization everywhere
 tags: 
 giscus_comments: true
 date: 2025-03-19
-featured: true
+featured: false
 mermaid:
   enabled: true
   zoomable: true

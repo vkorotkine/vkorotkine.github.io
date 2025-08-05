@@ -202,9 +202,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/repositories.md
-  - _pages/projects.md
   - _pages/cv.md
+  - _pages/projects.md
   - _pages/teaching.md
   - _pages/submenus.md
   - _pages/profiles.md
@@ -643,7 +642,7 @@ third_party_libraries:
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json: assets/json/resume_korotkine.json # it can also be an url
 
 jsonresume:
   - basics

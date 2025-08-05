@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/notes/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "some projects I contributed to",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "post-filtering-updates-on-lie-groups",
       
         title: "filtering updates on lie groups",

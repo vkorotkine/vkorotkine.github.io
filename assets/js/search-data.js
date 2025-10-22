@@ -70,17 +70,6 @@ ninja.data = [{
           window.location.href = "/blog/2025/robust_loss_triggs/";
         
       },
-    },{id: "post-getting-openvins-up-and-running-with-ros2",
-      
-        title: "getting openvins up and running with ros2",
-      
-      description: "notes on getting stuff running",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/openvins-ros2/";
-        
-      },
     },{id: "post-discretization-of-continuous-time-noise-and-process-models",
       
         title: "discretization of continuous-time noise and process models",

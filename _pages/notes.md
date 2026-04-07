@@ -14,6 +14,19 @@ Collections of notes and slides.
     <div class="col-md-8 mb-4">
       <div class="card shadow-sm">
         <div class="card-body">
+          <h4 class="card-title">LiDAR Point Cloud Undistortion</h4>
+          <p class="card-text"> (Last updated: April 7th, 2026)</p>
+          <a href="{{ site.baseurl }}/assets/pdf/notes/lidar_undistortion.pdf" class="btn btn-primary" target="_blank">
+            View PDF
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-8 mb-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
           <h4 class="card-title">Sensor Calibration Observability Analysis</h4>
           <p class="card-text"> (Last updated: October 22nd, 2025)</p>
           <a href="{{ site.baseurl }}/assets/pdf/notes/calibration_observability_doc.pdf" class="btn btn-primary" target="_blank">
@@ -22,7 +35,6 @@ Collections of notes and slides.
         </div>
       </div>
     </div>
-
 
     <div class="col-md-8 mb-4">
       <div class="card shadow-sm">

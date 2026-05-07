@@ -37,7 +37,25 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-filtering-updates-on-lie-groups",
+        },{id: "nav-cv",
+          title: "cv",
+          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "post-why-do-a-phd",
+      
+        title: "Why do a PhD?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/why-phd/";
+        
+      },
+    },{id: "post-filtering-updates-on-lie-groups",
       
         title: "filtering updates on lie groups",
       

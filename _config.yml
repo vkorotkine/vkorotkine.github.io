@@ -202,7 +202,6 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/cv.md
   - _pages/projects.md
   - _pages/teaching.md
   - _pages/submenus.md

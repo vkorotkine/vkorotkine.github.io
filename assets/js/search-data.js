@@ -44,18 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-why-do-a-phd",
-      
-        title: "Why do a PhD?",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2026/why-phd/";
-        
-      },
-    },{id: "post-filtering-updates-on-lie-groups",
+        },{id: "post-filtering-updates-on-lie-groups",
       
         title: "filtering updates on lie groups",
       

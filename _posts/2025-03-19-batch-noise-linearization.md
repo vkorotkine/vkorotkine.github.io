@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: nonlinear noise in nonlinear-least-squares optimization
 description: linearization everywhere
 tags: 

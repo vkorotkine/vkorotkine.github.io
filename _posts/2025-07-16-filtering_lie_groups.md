@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: filtering updates on lie groups
 description: moving gaussians around curves 
 tags: 

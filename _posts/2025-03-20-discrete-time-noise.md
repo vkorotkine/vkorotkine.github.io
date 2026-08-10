@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: discretization of continuous-time noise and process models
 description: some bees in my bonnet on continuous-time to discrete-time white noise conversion
 tags: 

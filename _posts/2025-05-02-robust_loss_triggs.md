@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: outlier rejection in nonlinear least squares
 description: an aesthetic derivation
 tags: 

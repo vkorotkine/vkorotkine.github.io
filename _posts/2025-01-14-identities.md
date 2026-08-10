@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: useful identities
 description: quick mathematical facts I rederive every so often
 tags: 

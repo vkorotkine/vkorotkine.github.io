@@ -6,7 +6,7 @@ subtitle: I am a Ph.D. Candidate studying robot navigation in the <a href='https
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Macdonald Engineering Building</p>

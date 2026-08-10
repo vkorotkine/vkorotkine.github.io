@@ -187,3 +187,163 @@ cv:
       - name: Professor Jane Smith
         icon: fa-solid fa-thumbtack
         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Vassili Korotkine
+  location: Montreal, Canada
+  email: vassili.korotkine@mail.mcgill.ca
+  website: https://vkorotkine.github.io/
+  social_networks:
+    - network: GitHub
+      username: vkorotkine
+    - network: LinkedIn
+      username: vkorotkine
+    - network: Google Scholar
+      username: y5mzatsAAAAJ
+
+  sections:
+    Summary:
+      - Robotics researcher and engineer completing a PhD in state estimation for mobile robots.
+        Expertise in multi-sensor fusion (lidar, IMU, GNSS, wheel odometry), factor graph optimization,
+        and Lie group-based estimation, with C++ and Python implementations.
+        Four first-authored or co-authored publications in RA-L and IROS, plus three months of on-site
+        industry collaboration with Denso Corporation as well as a yearlong research collaboration with
+        Provectus Robotics.
+      - Canadian citizen, eligible for TN visa.
+
+    Education:
+      - institution: McGill University
+        area: Mechanical Engineering
+        degree: PhD
+        location: Montreal, Canada
+        start_date: 2022-09
+        end_date: 2026-12
+        highlights:
+          - "Thesis: *Sensor Fusion Optimization Algorithms With Multi-Modal Measurement Models*"
+          - "Advisor: James Richard Forbes"
+          - "Industry collaborations: Denso Corporation and Provectus Robotics. Focus on state
+            estimation and sensor calibration for ground vehicles."
+      - institution: McGill University
+        area: Mechanical Engineering
+        degree: MSc
+        location: Montreal, Canada
+        start_date: 2020-09
+        end_date: 2022-08
+        highlights:
+          - "Thesis: *State Estimation on Matrix Lie Groups Using Iterative Filters*"
+      - institution: McGill University
+        area: Mechanical Engineering
+        degree: BEng
+        location: Montreal, Canada
+        start_date: 2016-09
+        end_date: 2020-05
+
+    Technical Skills:
+      - label: State Estimation
+        details: EKF, UKF, factor graph optimization (Ceres), particle filters
+      - label: Sensor Fusion
+        details: Lidar-IMU calibration, visual-inertial odometry, GNSS/INS integration, wheel odometry
+      - label: Mathematics
+        details: Lie groups (SO(3), SE(3)), manifold optimization, Bayesian inference, nonlinear least squares
+      - label: Languages
+        details: C++, Python
+      - label: Libraries/Tools
+        details: Eigen, Sophus, PCL, ROS
+      - label: Systems
+        details: Linux, Git, Docker
+
+    Research Experience:
+      - company: Dynamics, Estimation, and Control in Aerospace and Robotics (DECAR), McGill University
+        position: Graduate Research Assistant
+        location: Montreal, Canada
+        start_date: 2022-09
+        end_date: present
+        highlights:
+          - Analyzed a LiDAR-IMU targetless calibration pipeline using Ouster and Velodyne LiDAR
+            datasets and Gazebo simulation. Characterized sensitivity of LiDAR-inertial system error
+            to extrinsic calibration error. Currently extending to radar-inertial calibration.
+            Research done in collaboration with Provectus Robotics.
+          - Developed the first polynomial-time globally optimal method for landmark-based
+            localization with unknown data associations. Published in *Robotics & Automation Letters*.
+          - Developed a scheme for using Gaussian mixture measurement likelihoods in nonlinear
+            least-squares solvers that addresses uncertainty characterization and convergence issues
+            in existing methods. Published in *Robotics & Automation Letters*.
+
+    Industry Experience:
+      - company: Denso Corporation
+        position: Research Collaboration (three months on-site)
+        location: Tokyo, Japan
+        start_date: 2023-09
+        end_date: 2023-12
+        highlights:
+          - Collaborated on-site with Denso engineers prototyping visual-inertial navigation systems
+            for assisted driving.
+          - Diagnosed and resolved calibration issues in a stereo camera and IMU sensor rig,
+            delivering a working prototype.
+
+    Publications:
+      - title: Globally Optimal Data-Association-Free Landmark-Based Localization Using Semidefinite Relaxations
+        authors:
+          - Vassili Korotkine
+          - M. Cohen
+          - J. R. Forbes
+        journal: IEEE Robotics and Automation Letters, vol. 10, no. 10, pp. 10250-10257
+        date: 2025-10
+      - title: A Hessian for Gaussian Mixture Likelihoods in Nonlinear Least Squares
+        authors:
+          - Vassili Korotkine
+          - M. Cohen
+          - J. R. Forbes
+        journal: IEEE Robotics and Automation Letters, vol. 9, no. 9, pp. 7891-7898
+        date: 2024-09
+      - title: "navlie: A Python Package for State Estimation on Lie Groups"
+        authors:
+          - C. C. Cossette
+          - M. Cohen
+          - Vassili Korotkine
+          - A. Del Castillo Bernal
+          - M. A. Shalaby
+          - J. R. Forbes
+        journal: IEEE/RSJ IROS, Detroit, MI, pp. 5282-5287
+        date: 2023-10
+      - title: Koopman Linearization for Data-Driven Batch State Estimation of Control-Affine Systems
+        authors:
+          - Z. C. Guo
+          - Vassili Korotkine
+          - J. R. Forbes
+          - T. D. Barfoot
+        journal: IEEE Robotics and Automation Letters, vol. 7, no. 2, pp. 866-873
+        date: 2022-04
+
+    Projects:
+      - name: "[navlie](https://github.com/decargroup/navlie)"
+        highlights:
+          - Open-source Python library for on-manifold state estimation implementing EKF, UKF,
+            particle filters, and batch solvers on Lie groups. Contributed the Interacting Multiple
+            Model Filter module, used in a subsequent group publication. 189 GitHub stars.
+            Presented at IROS 2023.
+      - name: "[estimation_evaluation_toolbox](https://github.com/vkorotkine/estimation_evaluation_toolbox)"
+        highlights:
+          - Toolbox for automated evaluation of navigation systems, including C++-to-analysis
+            pipelines and parameter sensitivity studies. Applied to analysis of GRIL-Calib, a
+            LiDAR-IMU calibration system for ground vehicles.
+
+    Teaching & Mentorship:
+      - bullet: Teaching Assistant, Numerical Methods in Mechanical Engineering, Fall 2021. Gave
+          tutorials to a class of 90 students.
+      - bullet: "Supervisory Experience Program: supervised a junior student in the DECAR lab,
+          Summer 2026."
+      - bullet: Senior student on industry collaboration with Provectus Robotics Solutions.
+          Supervised and supported junior students on the project.
+
+    Other Interests:
+      - Organized social events for the McGill Triathlon Club and the Graduate Association of
+        Mechanical Engineering Students. Occasional baker.
+
+# The blocks below only affect the generated PDF, not the rendered /cv/ page.
+# They are optional -- delete them to use RenderCV's defaults.
+design:
+  theme: classic
+
+locale:
+  language: english

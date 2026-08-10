@@ -97,7 +97,7 @@ al_folio:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -251,6 +251,11 @@ exclude:
   - gems/
   - migrations/
   - vendor
+  - _pages/projects.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/dropdown.md
+
 keep_files:
   - CNAME
   - .nojekyll

@@ -1,18 +1,85 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+# Venue badges for the coloured `abbr` labels on the publications page.
+#
+# The top-level key must match the `abbr` field in papers.bib EXACTLY --
+# it's a literal string match, and it's case-sensitive. `abbr = {RA-L}`
+# needs a `RA-L:` key here. `RAL:` or `ra-l:` will not match.
+#
+# If a venue has no entry here the badge still renders, just in the default
+# theme colour. So this file is purely cosmetic -- nothing breaks without it.
+#
+# Colours are hex strings and need quoting, because YAML reads a bare #
+# as the start of a comment.
+#
+# The badge is a coloured block with white text, so pick mid-to-dark tones.
+# Anything lighter than about #7a7a7a makes the text unreadable.
+#
+# Rather than 12 unrelated colours, these are grouped by field so the hue
+# carries information -- you can see at a glance whether the group's output
+# that year was robotics or controls:
+#
+#   robotics / estimation ... blues
+#   controls / systems ...... teals
+#   aerospace ............... slate
+#   marine .................. deep cyan
+#   bio / other ............. purples
+
+# ---------------------------------------------------------- robotics
+RA-L:
+  url: https://www.ieee-ras.org/publications/ra-l
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+T-RO:
+  url: https://www.ieee-ras.org/publications/t-ro
+  color: "#0b4da2"
 
-"Vision":
-  color: "#009f36"
+ICRA:
+  url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/icra
+  color: "#1f5fb8"
 
-"IROS":
-  color: "#ff0000"
+IROS:
+  url: https://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/iros
+  color: "#3a72c4"
 
-"RA-L":
-  color: "#7993ff"
+IJRR:
+  url: https://journals.sagepub.com/home/ijr
+  color: "#12457e"
 
-"arXiv":
-  color: "#f1ff00"
+# ---------------------------------------------------------- controls
+T-AC:
+  url: https://ieeecss.org/publication/transactions-automatic-control
+  color: "#0f6b63"
+
+L-CSS:
+  url: https://ieeecss.org/publication/ieee-control-systems-letters
+  color: "#158578"
+
+ACC:
+  url: https://acc2026.a2c2.org/
+  color: "#2a9d8f"
+
+CDC:
+  url: https://ieeecss.org/conference/cdc
+  color: "#1d7f74"
+
+Automatica:
+  url: https://www.sciencedirect.com/journal/automatica
+  color: "#0d5c55"
+
+# --------------------------------------------------------- aerospace
+JGCD:
+  url: https://arc.aiaa.org/journal/jgcd
+  color: "#4a5568"
+
+# ------------------------------------------------------------ marine
+JOE:
+  url: https://ieeeoes.org/publications/ieee-journal-of-oceanic-engineering/
+  color: "#00626e"
+
+# ------------------------------------------------------- bio / other
+T-BME:
+  url: https://www.embs.org/tbme/
+  color: "#6b3fa0"
+
+PRSA:
+  url: https://royalsocietypublishing.org/journal/rspa
+  color: "#7d4b9e"

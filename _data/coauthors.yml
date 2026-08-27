@@ -1,10 +1,31 @@
-"forbes-test":
+"forbes":
   - firstname: ["James Richard", "James", "James R."]
     url: https://jrforbes.github.io
+
+"cohen":
+  - firstname: ["Mitchell"]
+    url: https://mitchellcohen3.github.io/
+
+"shalaby":
+  - firstname: ["Mohammed", "Mohammed Ayman", "Mohammed A."]
+    url: https://shalabymhd.github.io/
+
+"cossette":
+  - firstname: ["Charles", "Charles Champagne"]
+    url: https://charlescossette.github.io/
+
+"chamoun":
+  - firstname: ["Pierre"]
+    url: https://pierre-chamoun.github.io/
+
+"guo":
+  - firstname: ["Zi Cong"]
+    url: https://qetuo1098.github.io/
 
 "podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
     url: https://en.wikipedia.org/wiki/Boris_Podolsky
+
 
 "rosen":
   - firstname: ["Nathan", "N."]

@@ -76,10 +76,5 @@ JOE:
   color: "#00626e"
 
 # ------------------------------------------------------- bio / other
-T-BME:
-  url: https://www.embs.org/tbme/
-  color: "#6b3fa0"
-
-PRSA:
-  url: https://royalsocietypublishing.org/journal/rspa
-  color: "#7d4b9e"
+arXiv:
+  color: "#1a7a4f"

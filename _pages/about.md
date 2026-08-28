@@ -30,7 +30,7 @@ latest_posts:
 My research lies under the umbrella of Simultaneous Localization and Mapping (SLAM), where the robot
 seeks to answer the following questions: 1) Where am I? and 2) What does the environment look like?
 
-I am particularly interested in sensor calibration from ground vehicles. In the past I've also worked on situations where there is inherent ambiguity in the environment, such as the case of unknown data associations, where the robot does not know which landmark a measurement came from.
+I am particularly interested in sensor calibration for ground vehicles. In the past I've also worked on situations where there is inherent ambiguity in the environment, such as the case of unknown data associations, where the robot does not know which landmark a measurement came from.
 
 Outside of work, I am interested in anything outdoors.
 From 2020-2022 I was on the exec council for <a href="https://mcgill-triathlon.com/">McGill Triathlon Club</a> organizing their social events. In 2025-2026 I did more of the same for the

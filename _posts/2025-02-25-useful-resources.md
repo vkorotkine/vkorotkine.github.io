@@ -18,4 +18,6 @@ The following is a small list of resources that I recommend to people occasional
 - <a href="https://escholarship.org/uc/item/1vf7j52p"> IMU Error Modeling Tutorial. </a> by Jay Farrell. 
 - <a href="https://docs.google.com/document/d/e/2PACX-1vQTvxZkYPbOq3VYKCfAy8hKs4wjwLOF6z_7LT5vDkDSgVmcOto15-yzmOVOi8uAaGVkWoPCg2FNHD-v/pub"> How to Read a Research Paper </a>  by Dmitry Berenson at University of Michigan. Written for the robotics field specifically. 
 - <a href="https://rpg.ifi.uzh.ch/docs/IROS18_Zhang.pdf"> A Tutorial on Quantitative Trajectory Evaluation for Visual(-Inertial) Odometry </a>  by Zichao Zhang and Davide Scaramuzza. Useful reference for error metrics in robot navigation. 
-- ROS Resources: <a href="http://wiki.ros.org/ROS/Tutorials"> ROS Tutorials </a>, <a href="https://rsl.ethz.ch/education-students/lectures/ros.html"> ETH ROS Course </a>, <a href="https://github.com/methylDragon/ros-tutorials"> methylDragon's ros-tutorials on github. </a> 
+- <a href="https://c-faq.com/decl/spiral.anderson.html"> - Spiral Rule for Reading C/C++ Function Signatures </a>. 
+
+

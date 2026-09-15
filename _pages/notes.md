@@ -16,7 +16,7 @@ Collections of notes and slides.
         <div class="card-body">
           <h4 class="card-title">IMU Modelling, Kinematics, GNSS</h4>
           <p class="card-text"> (Last updated: Septhember 14th, 2026. )</p>
-          <a href="{{ site.baseurl }}/assets/pdf/notes/imu_gnss.pdf" class="btn btn-primary" target="_blank">
+          <a href="{{ site.baseurl }}/assets/pdf/notes/gnss_ins.pdf" class="btn btn-primary" target="_blank">
             View PDF
           </a>
         </div>
